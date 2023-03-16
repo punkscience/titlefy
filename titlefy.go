@@ -7,7 +7,7 @@ import (
 	"golang.org/x/text/language"
 )
 
-func formatEnglishTitle(str string) string {
+func FormatEnglishTitle(str string) string {
 	conjunctions := []string{
 		"for",
 		"and",
